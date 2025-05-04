@@ -1,0 +1,3 @@
+euriai
+streamlit
+python-dotenv
