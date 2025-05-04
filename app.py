@@ -9,7 +9,7 @@ load_dotenv()
 st.title("🧠 Euriai Text Generator with Code Support")
 
 # Model selector
-model_choice = st.selectbox("Choose Model:", ["gpt-4.1-mini", "gpt-4.1-nano"])
+model_choice = st.selectbox("Choose Model:", ["gpt-4.1-mini", "gpt-4.1-nano","deepseek-r1-distill-llama-70b","qwen-qwq-32b"," mistral-saba-24b","llama-4-scout-17b-16e-instruct","llama-4-maverick-17b-128e-instruct","gemini-2.5-pro-exp-03-25","gemini-2.0-flash-001"])
 
 # Prompt input
 prompt = st.text_area("Enter your prompt:", "Write a Python function to reverse a string.")
