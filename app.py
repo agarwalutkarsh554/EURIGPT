@@ -21,7 +21,9 @@ if st.button("Generate"):
             client = EuriaiClient(api_key=os.getenv("API_KEY"), model=model_choice)
 
             response = client.generate_completion(
-                prompt=prompt
+                prompt=prompt,
+                temperature=0.7,
+                max_tokens=300
             )
 
             st.success("Response:")
