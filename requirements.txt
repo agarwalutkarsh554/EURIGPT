@@ -2,3 +2,5 @@ euriai
 streamlit
 python-dotenv
 langchain
+python-dateutil==2.8.2 
+faiss-cpu
